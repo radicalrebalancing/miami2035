@@ -1,11 +1,10 @@
-{
-  "elements": [
+"elements": [
     {
       "id": "population",
       "label": "Population of Miami-Dade County",
       "type": "Demographic",
+      "tag": "Affordability and Livability",
       "value": 2700000,
-      "color": "#009FDD",
       "x": 0,
       "y": 0
     },
@@ -13,8 +12,8 @@
       "id": "unemployment_rate",
       "label": "Unemployment rate",
       "type": "Economic",
+      "tag": "A Dynamic and Diversified Economy",
       "value": 0.014,
-      "color": "#D55F5F",
       "x": 200,
       "y": 0
     },
@@ -22,8 +21,8 @@
       "id": "gdp_per_capita",
       "label": "GDP per capita",
       "type": "Economic",
+      "tag": "A Dynamic and Diversified Economy, Global Connectivity",
       "value": 44300,
-      "color": "#FECB2F",
       "x": 400,
       "y": 0
     },
@@ -31,8 +30,8 @@
       "id": "venture_capital_funding",
       "label": "Venture capital (VC) funding",
       "type": "Economic",
+      "tag": "A Dynamic and Diversified Economy, Education and Workforce",
       "value": 100000000,
-      "color": "#73C6B6",
       "x": 600,
       "y": 0
     },
@@ -40,8 +39,8 @@
       "id": "housing_affordability",
       "label": "Housing affordability",
       "type": "Housing",
+      "tag": "Affordability and Livability",
       "value": 0.5,
-      "color": "#BAE6FD",
       "x": 800,
       "y": 0
     },
@@ -49,8 +48,8 @@
       "id": "quality_of_life",
       "label": "Quality of life",
       "type": "Quality of Life",
+      "tag": "Affordability and Livability",
       "value": 0.8,
-      "color": "#65CCF1",
       "x": 1000,
       "y": 0
     },
@@ -58,8 +57,8 @@
       "id": "education_level",
       "label": "Education level",
       "type": "Education",
+      "tag": "Education and Workforce",
       "value": 0.7,
-      "color": "#6FC3DF",
       "x": 0,
       "y": 200
     },
@@ -67,8 +66,8 @@
       "id": "healthcare_access",
       "label": "Healthcare access",
       "type": "Healthcare",
+      "tag": "Modernized Government Services",
       "value": 0.8,
-      "color": "#88D8B0",
       "x": 200,
       "y": 200
     },
@@ -76,8 +75,8 @@
       "id": "natural_environment_quality",
       "label": "Natural environment quality",
       "type": "Environment",
+      "tag": "Natural Environment",
       "value": 0.6,
-      "color": "#8EE5A5",
       "x": 400,
       "y": 200
     },
@@ -85,8 +84,8 @@
       "id": "economic_opportunity",
       "label": "Economic opportunity",
       "type": "Economic",
+      "tag": "A Dynamic and Diversified Economy",
       "value": 0.7,
-      "color": "#73AF48",
       "x": 600,
       "y": 200
     },
@@ -94,8 +93,8 @@
       "id": "innovation_and_entrepreneurship",
       "label": "Innovation and entrepreneurship",
       "type": "Economic",
+      "tag": "A Dynamic and Diversified Economy",
       "value": 0.6,
-      "color": "#9BC149",
       "x": 800,
       "y": 200
     },
@@ -103,8 +102,8 @@
       "id": "global_reputation_for_culture",
       "label": "Global reputation for culture",
       "type": "Culture",
+      "tag": "Global Connectivity",
       "value": 0.8,
-      "color": "#FFE66D",
       "x": 1000,
       "y": 200
     },
@@ -112,8 +111,8 @@
       "id": "traffic_congestion",
       "label": "Traffic congestion",
       "type": "Infrastructure",
+      "tag": "Modernized Government Services",
       "value": 0.4,
-      "color": "#FFB94C",
       "x": 0,
       "y": 400
     },
@@ -121,8 +120,8 @@
       "id": "immigration_rate",
       "label": "Immigration rate",
       "type": "Demographic",
+      "tag": "Global Connectivity",
       "value": 10000,
-      "color": "#FF9C6C",
       "x": 200,
       "y": 400
     },
@@ -130,17 +129,17 @@
       "id": "birth_rate",
       "label": "Birth rate",
       "type": "Demographic",
+      "tag": "Affordability and Livability",
       "value": 1000,
-      "color": "#6BFF8F",
       "x": 400,
       "y": 400
     },
     {
-      "id": "death_rate",
+      ""id": "death_rate",
       "label": "Death rate",
       "type": "Demographic",
+      "tag": "Affordability and Livability",
       "value": 500,
-      "color": "#FFBA5A",
       "x": 600,
       "y": 400
     },
@@ -148,8 +147,8 @@
       "id": "migration_rate",
       "label": "Migration rate",
       "type": "Demographic",
+      "tag": "Global Connectivity",
       "value": 500,
-      "color": "#FF7D67",
       "x": 800,
       "y": 400
     },
@@ -157,8 +156,8 @@
       "id": "investment_in_education",
       "label": "Investment in education",
       "type": "Investment",
+      "tag": "Education and Workforce",
       "value": 1000000,
-      "color": "#00B7C3",
       "x": 1000,
       "y": 400
     },
@@ -166,8 +165,8 @@
       "id": "investment_in_healthcare",
       "label": "Investment in healthcare",
       "type": "Investment",
+      "tag": "Modernized Government Services",
       "value": 500000,
-      "color": "#A8DBA8",
       "x": 0,
       "y": 600
     },
@@ -175,8 +174,8 @@
       "id": "public_safety",
       "label": "Public safety",
       "type": "Quality of Life",
+      "tag": "Modernized Government Services",
       "value": 0.7,
-      "color": "#FF7D67",
       "x": 0,
       "y": 800
     },
@@ -184,8 +183,8 @@
       "id": "community_engagement",
       "label": "Community engagement",
       "type": "Social",
+      "tag": "Modernized Government Services",
       "value": 0.6,
-      "color": "#88D8B0",
       "x": 200,
       "y": 800
     },
@@ -193,8 +192,8 @@
       "id": "diversity_and_inclusion",
       "label": "Diversity and inclusion",
       "type": "Social",
+      "tag": "Modernized Government Services",
       "value": 0.8,
-      "color": "#A8DBA8",
       "x": 400,
       "y": 800
     },
@@ -202,8 +201,8 @@
       "id": "technology_infrastructure",
       "label": "Technology infrastructure",
       "type": "Infrastructure",
+      "tag": "Modernized Government Services",
       "value": 0.7,
-      "color": "#73AF48",
       "x": 600,
       "y": 800
     },
@@ -211,8 +210,8 @@
       "id": "renewable_energy_adoption",
       "label": "Renewable energy adoption",
       "type": "Environment",
+      "tag": "Natural Environment",
       "value": 0.4,
-      "color": "#8EE5A5",
       "x": 800,
       "y": 800
     },
@@ -220,8 +219,8 @@
       "id": "sustainability_initiatives",
       "label": "Sustainability initiatives",
       "type": "Environment",
+      "tag": "Natural Environment",
       "value": 0.6,
-      "color": "#9BC149",
       "x": 1000,
       "y": 800
     },
@@ -229,8 +228,8 @@
       "id": "workforce_development",
       "label": "Workforce development",
       "type": "Education",
+      "tag": "Education and Workforce",
       "value": 0.6,
-      "color": "#6FC3DF",
       "x": 0,
       "y": 1000
     },
@@ -238,8 +237,8 @@
       "id": "tourism_industry_growth",
       "label": "Tourism industry growth",
       "type": "Economic",
+      "tag": "Global Connectivity",
       "value": 0.08,
-      "color": "#FFE66D",
       "x": 200,
       "y": 1000
     },
@@ -247,8 +246,8 @@
       "id": "foreign_direct_investment",
       "label": "Foreign direct investment",
       "type": "Economic",
+      "tag": "Global Connectivity",
       "value": 500000000,
-      "color": "#FECB2F",
       "x": 400,
       "y": 1000
     }
@@ -258,57 +257,152 @@
       "id": "c1",
       "from": "population",
       "to": "housing_affordability",
-      "type": "Increased demand for housing",
+      "type": "Increases demand for housing",
       "direction": "directed",
-      "color": "#0073EA"
+      "label": "Population growth increases housing demand"
     },
     {
       "id": "c2",
       "from": "housing_affordability",
       "to": "quality_of_life",
-      "type": "Affordability impact",
+      "type": "Decreases quality of life",
       "direction": "directed",
-      "color": "#E45028"
+      "label": "Lower housing affordability reduces quality of life"
     },
     {
       "id": "c3",
-      "from": "quality_of_life",
-      "to": "economic_opportunity",
-      "type": "Reduced economic opportunity",
+      "from": "investment_in_education",
+      "to": "education_level",
+      "type": "Improves education",
       "direction": "directed",
-      "color": "#F9B229"
+      "label": "Investment boosts education levels"
     },
     {
       "id": "c4",
-      "from": "economic_opportunity",
-      "to": "venture_capital_funding",
-      "type": "stimulates",
+      "from": "education_level",
+      "to":"economic_opportunity",
+      "type": "Enhances economic opportunity",
       "direction": "directed",
-      "color": "#FF6347"
+      "label": "Higher education fosters greater economic opportunity"
     },
     {
       "id": "c5",
-      "from": "venture_capital_funding",
+      "from": "economic_opportunity",
       "to": "innovation_and_entrepreneurship",
-      "type": "funds",
+      "type": "Promotes innovation",
       "direction": "directed",
-      "color": "#32CD32"
+      "label": "Economic opportunity drives innovation"
     },
     {
       "id": "c6",
-      "from": "education_level",
-      "to": "workforce_development",
-      "type": "enhances",
+      "from": "innovation_and_entrepreneurship",
+      "to": "job_creation_rate",
+      "type": "Increases job creation",
       "direction": "directed",
-      "color": "#DA70D6"
+      "label": "Innovation leads to job creation"
     },
     {
       "id": "c7",
+      "from": "job_creation_rate",
+      "to": "economic_growth",
+      "type": "Stimulates economic growth",
+      "direction": "directed",
+      "label": "Job creation fuels economic growth"
+    },
+    {
+      "id": "c8",
+      "from": "economic_growth",
+      "to": "gdp_growth_rate",
+      "type": "Contributes to GDP growth",
+      "direction": "directed",
+      "label": "Economic growth contributes to higher GDP rates"
+    },
+    {
+      "id": "c9",
+      "from": "gdp_growth_rate",
+      "to": "economic_opportunity",
+      "type": "Increases economic opportunity",
+      "direction": "directed",
+      "label": "GDP growth enhances economic opportunities"
+    },
+    {
+      "id": "c10",
+      "from": "unemployment_rate",
+      "to": "economic_opportunity",
+      "type": "Enhances economic opportunity",
+      "direction": "directed",
+      "label": "Lower unemployment rates improve economic opportunity"
+    },
+    {
+      "id": "c11",
+      "from": "investment_in_healthcare",
+      "to": "healthcare_access",
+      "type": "Improves healthcare access",
+      "direction": "directed",
+      "label": "Investment in healthcare increases access"
+    },
+    {
+      "id": "c12",
       "from": "healthcare_access",
       "to": "public_safety",
-      "type": "supports",
+      "type": "Supports public safety",
       "direction": "directed",
-      "color": "#40E0D0"
+      "label": "Better healthcare enhances public safety"
+    },
+    {
+      "id": "c13",
+      "from": "public_safety",
+      "to": "quality_of_life",
+      "type": "Improves quality of life",
+      "direction": "directed",
+      "label": "Improved public safety boosts quality of life"
+    },
+    {
+      "id": "c14",
+      "from": "investment_in_infrastructure",
+      "to": "natural_environment_quality",
+      "type": "Enhances environmental quality",
+      "direction": "directed",
+      "label": "Infrastructure investment enhances environmental quality"
+    },
+    {
+      "id": "c15",
+      "from": "natural_environment_quality",
+      "to": "quality_of_life",
+      "type": "Improves quality of life",
+      "direction": "directed",
+      "label": "Better natural environment improves life quality"
+    },
+    {
+      "id": "c16",
+      "from": "venture_capital_funding",
+      "to": "innovation_and_entrepreneurship",
+      "type": "Fuels innovation",
+      "direction": "directed",
+      "label": "VC funding drives innovation and entrepreneurship"
+    },
+    {
+  "id": "c17",
+  "from": "global_reputation_for_culture",
+  "to": "tourism_industry_growth",
+  "type": "Boosts tourism",
+  "direction": "directed",
+  "label": "Cultural reputation boosts tourism and economic growth"
+   },
+    {
+      "id": "c18",
+      "from": "tourism_industry_growth",
+      "to": "economic_growth",
+      "type": "Enhances economic growth",
+      "direction": "directed",
+      "label": "Tourism growth fuels overall economic growth"
+    },
+    {
+      "id": "c19",
+      "from": "traffic_congestion",
+      "to": "quality_of_life",
+      "type": "Decreases quality of life",
+      "direction": "directed",
+      "label": "Reduced traffic congestion improves quality of life"
     }
   ]
-}
