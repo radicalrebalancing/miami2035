@@ -1,0 +1,424 @@
+{
+  "elements": [
+    {
+      "id": "population",
+      "label": "Population of Miami-Dade County",
+      "type": "Demographic",
+      "value": 2700000,
+      "color": "#009FDD",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "unemployment_rate",
+      "label": "Unemployment Rate",
+      "type": "Economic",
+      "value": 0.014,
+      "color": "#D55F5F",
+      "x": 100,
+      "y": 0
+    },
+    {
+      "id": "gdp_per_capita",
+      "label": "GDP Per Capita",
+      "type": "Economic",
+      "value": 44300,
+      "color": "#FECB2F",
+      "x": 200,
+      "y": 0
+    },
+    {
+      "id": "venture_capital_funding",
+      "label": "Venture Capital Funding",
+      "type": "Economic",
+      "value": 100000000,
+      "color": "#73C6B6",
+      "x": 300,
+      "y": 0
+    },
+    {
+      "id": "housing_affordability",
+      "label": "Housing Affordability",
+      "type": "Housing",
+      "value": 0.5,
+      "color": "#BAE6FD",
+      "x": 400,
+      "y": 0
+    },
+    {
+      "id": "quality_of_life",
+      "label": "Quality of Life",
+      "type": "Quality of Life",
+      "value": 0.8,
+      "color": "#65CCF1",
+      "x": 500,
+      "y": 0
+    },
+    {
+      "id": "education_level",
+      "label": "Education Level",
+      "type": "Education",
+      "value": 0.7,
+      "color": "#6FC3DF",
+      "x": 600,
+      "y": 0
+    },
+    {
+      "id": "healthcare_access",
+      "label": "Healthcare Access",
+      "type": "Healthcare",
+      "value": 0.8,
+      "color": "#88D8B0",
+      "x": 700,
+      "y": 0
+    },
+    {
+      "id": "natural_environment_quality",
+      "label": "Natural Environment Quality",
+      "type": "Environment",
+      "value": 0.6,
+      "color": "#8EE5A5",
+      "x": 800,
+      "y": 0
+    },
+    {
+      "id": "economic_opportunity",
+      "label": "Economic Opportunity",
+      "type": "Economic",
+      "value": 0.7,
+      "color": "#73AF48",
+      "x": 0,
+      "y": 100
+    },
+    {
+      "id": "innovation_and_entrepreneurship",
+      "label": "Innovation and Entrepreneurship",
+      "type": "Economic",
+      "value": 0.6,
+      "color": "#9BC149",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "id": "global_reputation_for_culture",
+      "label": "Global Reputation for Culture",
+      "type": "Culture",
+      "value": 0.8,
+      "color": "#FFE66D",
+      "x": 200,
+      "y": 100
+    },
+    {
+      "id": "traffic_congestion",
+      "label": "Traffic Congestion",
+      "type": "Infrastructure",
+      "value": 0.4,
+      "color": "#FFB94C",
+      "x": 300,
+      "y": 100
+    },
+    {
+      "id": "immigration_rate",
+      "label": "Immigration Rate",
+      "type": "Demographic",
+      "value": 10000,
+      "color": "#FF9C6C",
+      "x": 400,
+      "y": 100
+    },
+    {
+      "id": "birth_rate",
+      "label": "Birth Rate",
+      "type": "Demographic",
+      "value": 1000,
+      "color": "#6BFF8F",
+      "x": 500,
+      "y": 100
+    },
+    {
+      "id": "death_rate",
+      "label": "
+
+"Death Rate",
+      "type": "Demographic",
+      "value": 500,
+      "color": "#FFBA5A",
+      "x": 600,
+      "y": 100
+    },
+    {
+      "id": "migration_rate",
+      "label": "Migration Rate",
+      "type": "Demographic",
+      "value": 500,
+      "color": "#FF7D67",
+      "x": 700,
+      "y": 100
+    },
+    {
+      "id": "investment_in_education",
+      "label": "Investment in Education",
+      "type": "Investment",
+      "value": 1000000,
+      "color": "#00B7C3",
+      "x": 800,
+      "y": 100
+    },
+    {
+      "id": "investment_in_healthcare",
+      "label": "Investment in Healthcare",
+      "type": "Investment",
+      "value": 500000,
+      "color": "#A8DBA8",
+      "x": 0,
+      "y": 200
+    },
+    {
+      "id": "investment_in_infrastructure",
+      "label": "Investment in Infrastructure",
+      "type": "Investment",
+      "value": 1000000,
+      "color": "#73C6B6",
+      "x": 100,
+      "y": 200
+    },
+    {
+      "id": "investment_in_innovation_and_entrepreneurship",
+      "label": "Investment in Innovation and Entrepreneurship",
+      "type": "Investment",
+      "value": 500000,
+      "color": "#73AF48",
+      "x": 200,
+      "y": 200
+    },
+    {
+      "id": "investment_in_cultural_development",
+      "label": "Investment in Cultural Development",
+      "type": "Investment",
+      "value": 500000,
+      "color": "#FFE66D",
+      "x": 300,
+      "y": 200
+    },
+    {
+      "id": "job_creation_rate",
+      "label": "Job Creation Rate",
+      "type": "Economic",
+      "value": 0.02,
+      "color": "#9BC149",
+      "x": 400,
+      "y": 200
+    },
+    {
+      "id": "venture_capital_funding_growth_rate",
+      "label": "Venture Capital Funding Growth Rate",
+      "type": "Economic",
+      "value": 0.1,
+      "color": "#73C6B6",
+      "x": 500,
+      "y": 200
+    },
+    {
+      "id": "gdp_growth_rate",
+      "label": "GDP Growth Rate",
+      "type": "Economic",
+      "value": 0.02,
+      "color": "#FECB2F",
+      "x": 600,
+      "y": 200
+    },
+    {
+      "id": "unemployment_rate_reduction",
+      "label": "Unemployment Rate Reduction",
+      "type": "Economic",
+      "value": 0.01,
+      "color": "#D55F5F",
+      "x": 700,
+      "y": 200
+    },
+    {
+      "id": "housing_affordability_improvement_rate",
+      "label": "Housing Affordability Improvement Rate",
+      "type": "Housing",
+      "value": 0.05,
+      "color": "#BAE6FD",
+      "x": 800,
+      "y": 200
+    },
+    {
+      "id": "quality_of_life_improvement_rate",
+      "label": "Quality of Life Improvement Rate",
+      "type": "Quality of Life",
+      "value": 0.05,
+      "color": "#65CCF1",
+      "x": 0,
+      "y": 300
+    },
+    {
+      "id": "climate_change_impact",
+      "label": "Climate Change Impact",
+      "type": "Environment",
+      "value": 0.7,
+      "color": "#FF9C6C",
+      "x": 100,
+      "y": 300
+    },
+    {
+      "id": "transportation_infrastructure_quality",
+      "label": "Transportation Infrastructure Quality",
+      "type": "Infrastructure",
+      "value": 0.6,
+      "color": "#FFB94C",
+      "x": 200,
+      "y": 300
+    },
+    {
+      "id": "public_safety",
+      "label": "Public Safety",
+      "type": "Quality of Life",
+      "value": 0.7,
+      "color": "#FF7D67",
+      "
+
+"x": 300,
+      "y": 300
+    },
+    {
+      "id": "community_engagement",
+      "label": "Community Engagement",
+      "type": "Social",
+      "value": 0.6,
+      "color": "#88D8B0",
+      "x": 400,
+      "y": 300
+    },
+    {
+      "id": "diversity_and_inclusion",
+      "label": "Diversity and Inclusion",
+      "type": "Social",
+      "value": 0.8,
+      "color": "#A8DBA8",
+      "x": 500,
+      "y": 300
+    },
+    {
+      "id": "technology_infrastructure",
+      "label": "Technology Infrastructure",
+      "type": "Infrastructure",
+      "value": 0.7,
+      "color": "#73AF48",
+      "x": 600,
+      "y": 300
+    },
+    {
+      "id": "renewable_energy_adoption",
+      "label": "Renewable Energy Adoption",
+      "type": "Environment",
+      "value": 0.4,
+      "color": "#8EE5A5",
+      "x": 700,
+      "y": 300
+    },
+    {
+      "id": "sustainability_initiatives",
+      "label": "Sustainability Initiatives",
+      "type": "Environment",
+      "value": 0.6,
+      "color": "#9BC149",
+      "x": 800,
+      "y": 300
+    },
+    {
+      "id": "workforce_development",
+      "label": "Workforce Development",
+      "type": "Education",
+      "value": 0.6,
+      "color": "#6FC3DF",
+      "x": 0,
+      "y": 400
+    },
+    {
+      "id": "tourism_industry_growth",
+      "label": "Tourism Industry Growth",
+      "type": "Economic",
+      "value": 0.08,
+      "color": "#FFE66D",
+      "x": 100,
+      "y": 400
+    },
+    {
+      "id": "foreign_direct_investment",
+      "label": "Foreign Direct Investment",
+      "type": "Economic",
+      "value": 500000000,
+      "color": "#FECB2F",
+      "x": 200,
+      "y": 400
+    }
+  ],
+  "connections": [
+    {
+      "id": "c1",
+      "from": "population",
+      "to": "housing_affordability",
+      "type": "Increased demand for housing",
+      "direction": "directed",
+      "color": "#0073EA"
+    },
+    {
+      "id": "c2",
+      "from": "housing_affordability",
+      "to": "quality_of_life",
+      "type": "Affordability impact",
+      "direction": "directed",
+      "color": "#E45028"
+    },
+    {
+      "id": "c3",
+      "from": "quality_of_life",
+      "to": "economic_opportunity",
+      "type": "Reduced economic opportunity",
+      "direction": "directed",
+      "color": "#F9B229"
+    },
+    {
+      "id": "c4",
+      "from": "economic_opportunity",
+      "to": "innovation_and_entrepreneurship",
+      "type": "Decreased innovation",
+      "direction": "directed",
+      "color": "#9BC149"
+    },
+    {
+      "id": "c5",
+      "from": "innovation_and_entrepreneurship",
+      "to": "venture_capital_funding",
+      "type": "Reduced VC funding",
+      "direction": "directed",
+      "color": "#73C6B6"
+    },
+    {
+      "id": "c6",
+      "from": "venture_capital_funding",
+      "to": "gdp_growth_rate",
+      "type": "Economic booster",
+      "direction": "directed",
+      "color": "#FEDCBA"
+    },
+    {
+      "id": "c7",
+      "from": "unemployment_rate",
+      "to": "public_safety",
+      "type": "Impact on safety",
+      "direction": "directed",
+      "color": "#CD5C5C"
+    },
+    {
+      "id": "c8",
+      "from": "education_level",
+      "to": "workforce_development",
+      "type": "Educational improvement",
+      "direction": "directed",
+      "color": "#8FBC8F"
+    }
+  ]
