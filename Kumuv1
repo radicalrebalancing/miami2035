@@ -138,9 +138,9 @@
     {
       "id": "death_rate",
       "label": "Death rate",
-     "type": "Demographic",
+      "type": "Demographic",
       "value": 500,
-      "color": "#FFBA5A",
+      "color":"#FFBA5A",
       "x": 600,
       "y": 400
     },
@@ -171,32 +171,131 @@
       "x": 0,
       "y": 600
     },
-{
+    {
+      "id": "investment_in_infrastructure",
+      "label": "Investment in infrastructure",
+      "type": "Investment",
+      "value": 1000000,
+      "color": "#73C6B6",
+      "x": 200,
+      "y": 600
+    },
+    {
+      "id": "investment_in_innovation_and_entrepreneurship",
+      "label": "Investment in innovation and entrepreneurship",
+      "type": "Investment",
+      "value": 500000,
+      "color": "#73AF48",
+      "x": 400,
+      "y": 600
+    },
+    {
+      "id": "investment_in_cultural_development",
+      "label": "Investment in cultural development",
+      "type": "Investment",
+      "value": 500000,
+      "color": "#FFE66D",
+      "x": 600,
+      "y": 600
+    },
+    {
+      "id": "job_creation_rate",
+      "label": "Job creation rate",
+      "type": "Economic",
+      "value": 0.02,
+      "color": "#9BC149",
+      "x": 800,
+      "y": 600
+    },
+    {
+      "id": "venture_capital_funding_growth_rate",
+      "label": "Venture capital funding growth rate",
+      "type": "Economic",
+      "value": 0.1,
+      "color": "#73C6B6",
+      "x": 1000,
+      "y": 600
+    },
+    {
+      "id": "gdp_growth_rate",
+      "label": "GDP growth rate",
+      "type": "Economic",
+      "value": 0.02,
+      "color": "#FECB2F",
+      "x": 0,
+      "y": 800
+    },
+    {
+      "id": "unemployment_rate_reduction",
+      "label": "Unemployment rate reduction",
+      "type": "Economic",
+      "value": 0.01,
+      "color": "#D55F5F",
+      "x": 200,
+      "y": 800
+    },
+    {
+      "id": "housing_affordability_improvement_rate",
+      "label": "Housing affordability improvement rate",
+      "type": "Housing",
+      "value": 0.05,
+      "color": "#BAE6FD",
+      "x": 400,
+      "y": 800
+    },
+    {
+      "id": "quality_of_life_improvement_rate",
+      "label": "Quality of life improvement rate",
+      "type": "Quality of Life",
+      "value": 0.05,
+      "color": "#65CCF1",
+      "x": 600,
+      "y": 800
+    },
+    {
+      "id": "climate_change_impact",
+      "label": "Climate change impact",
+      "type": "Environment",
+      "value": 0.7,
+      "color": "#FF9C6C",
+      "x": 800,
+      "y": 800
+    },
+    {
+      "id": "transportation_infrastructure_quality",
+      "label": "Transportation infrastructure quality",
+      "type": "Infrastructure",
+      "value": 0.6,
+      "color": "#FFB94C",
+      "x": 1000,
+      "y": 800
+    },
+    {
       "id": "public_safety",
       "label": "Public safety",
       "type": "Quality of Life",
       "value": 0.7,
       "color": "#FF7D67",
       "x": 0,
-      "y": 800
+      "y": 1000
     },
     {
       "id": "community_engagement",
       "label": "Community engagement",
-      "type": "Social",
+      "type": "Social", 
       "value": 0.6,
       "color": "#88D8B0",
       "x": 200,
-      "y": 800
+      "y": 1000
     },
     {
       "id": "diversity_and_inclusion",
-      "label": "Diversity and inclusion",
+      "label": "Diversity and inclusion",  
       "type": "Social",
       "value": 0.8,
       "color": "#A8DBA8",
       "x": 400,
-      "y": 800
+      "y": 1000
     },
     {
       "id": "technology_infrastructure",
@@ -205,7 +304,7 @@
       "value": 0.7,
       "color": "#73AF48",
       "x": 600,
-      "y": 800
+      "y": 1000
     },
     {
       "id": "renewable_energy_adoption",
@@ -214,7 +313,7 @@
       "value": 0.4,
       "color": "#8EE5A5",
       "x": 800,
-      "y": 800
+      "y": 1000
     },
     {
       "id": "sustainability_initiatives",
@@ -223,7 +322,7 @@
       "value": 0.6,
       "color": "#9BC149",
       "x": 1000,
-      "y": 800
+      "y": 1000
     },
     {
       "id": "workforce_development",
@@ -232,7 +331,7 @@
       "value": 0.6,
       "color": "#6FC3DF",
       "x": 0,
-      "y": 1000
+      "y": 1200
     },
     {
       "id": "tourism_industry_growth",
@@ -241,7 +340,7 @@
       "value": 0.08,
       "color": "#FFE66D",
       "x": 200,
-      "y": 1000
+      "y": 1200
     },
     {
       "id": "foreign_direct_investment",
@@ -250,7 +349,7 @@
       "value": 500000000,
       "color": "#FECB2F",
       "x": 400,
-      "y": 1000
+      "y": 1200
     }
   ],
   "connections": [
@@ -281,13 +380,29 @@
     {
       "id": "c4",
       "from": "economic_opportunity",
+      "to": "innovation_and_entrepreneurship",
+      "type": "Decreased innovation",
+      "direction": "directed",
+      "color": "#9BC149"
+    },
+    {
+      "id": "c5",
+      "from": "innovation_and_entrepreneurship",
+      "to": "venture_capital_funding",
+      "type": "Reduced VC funding",
+      "direction": "directed",
+      "color": "#73C6B6"
+    },
+    {
+      "id": "c6",
+      "from": "economic_opportunity",
       "to": "job_creation_rate",
       "type": "stimulates",
       "direction": "directed",
       "color": "#FF6347"
     },
     {
-      "id": "c5",
+      "id": "c7",
       "from": "venture_capital_funding",
       "to": "innovation_and_entrepreneurship",
       "type": "funds",
@@ -295,7 +410,7 @@
       "color": "#32CD32"
     },
     {
-      "id": "c6",
+      "id": "c8",
       "from": "education_level",
       "to": "workforce_development",
       "type": "enhances",
@@ -303,12 +418,54 @@
       "color": "#DA70D6"
     },
     {
-      "id": "c7",
+      "id": "c9",
       "from": "healthcare_access",
       "to": "public_safety",
-      "type": "supports",
+      "type"supports",
       "direction": "directed",
       "color": "#40E0D0"
     },
+    // Further connections based on the logical relationships between elements
+    {
+      "id": "c10",
+      "from": "job_creation_rate",
+      "to": "economic_growth",
+      "type": "boosts",
+      "direction": "directed",
+      "color": "#00FA9A"
+    },
+    {
+      "id": "c11",
+      "from": "public_safety",
+      "to": "community_engagement",
+      "type": "enhances",
+      "direction": "directed",
+      "color": "#FFD700"
+    },
+    {
+      "id": "c12",
+      "from": "diversity_and_inclusion",
+      "to": "community_engagement",
+      "type": "strengthens",
+      "direction": "directed",
+      "color": "#20B2AA"
+    },
+    {
+      "id": "c13",
+      "from": "technology_infrastructure",
+      "to": "economic_opportunity",
+      "type": "enables",
+      "direction": "directed",
+      "color": "#FF69B4"
+    },
+    {
+      "id": "c14",
+      "from": "renewable_energy_adoption",
+      "to": "sustainability_initiatives",
+      "type": "supports",
+      "direction": "directed",
+      "color": "#8FBC8F"
+    }
   ]
 }
+
