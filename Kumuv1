@@ -5,280 +5,259 @@
       "label": "Population of Miami-Dade County",
       "type": "Demographic",
       "value": 2700000,
-      "color": "#009FDD"
+      "color": "#009FDD",
+      "x": 0,
+      "y": 0
     },
     {
-      "id": "unemployment_rate", 
+      "id": "unemployment_rate",
       "label": "Unemployment rate",
       "type": "Economic",
       "value": 0.014,
-      "color": "#D55F5F"
+      "color": "#D55F5F",
+      "x": 200,
+      "y": 0
     },
     {
       "id": "gdp_per_capita",
-      "label": "GDP per capita", 
+      "label": "GDP per capita",
       "type": "Economic",
       "value": 44300,
-      "color": "#FECB2F"
+      "color": "#FECB2F",
+      "x": 400,
+      "y": 0
     },
     {
       "id": "venture_capital_funding",
       "label": "Venture capital (VC) funding",
       "type": "Economic",
       "value": 100000000,
-      "color": "#73C6B6" 
+      "color": "#73C6B6",
+      "x": 600,
+      "y": 0
     },
     {
       "id": "housing_affordability",
       "label": "Housing affordability",
       "type": "Housing",
-      "value": 0.5,  
-      "color": "#BAE6FD"
+      "value": 0.5,
+      "color": "#BAE6FD",
+      "x": 800,
+      "y": 0
     },
     {
       "id": "quality_of_life",
       "label": "Quality of life",
       "type": "Quality of Life",
       "value": 0.8,
-      "color": "#65CCF1"
+      "color": "#65CCF1",
+      "x": 1000,
+      "y": 0
     },
     {
       "id": "education_level",
       "label": "Education level",
       "type": "Education",
       "value": 0.7,
-      "color": "#6FC3DF"
+      "color": "#6FC3DF",
+      "x": 0,
+      "y": 200
     },
     {
       "id": "healthcare_access",
       "label": "Healthcare access",
       "type": "Healthcare",
-      "value": 0.8,  
-      "color": "#88D8B0"
+      "value": 0.8,
+      "color": "#88D8B0",
+      "x": 200,
+      "y": 200
     },
     {
-      "id": "natural_environment_quality", 
+      "id": "natural_environment_quality",
       "label": "Natural environment quality",
       "type": "Environment",
       "value": 0.6,
-      "color": "#8EE5A5"
+      "color": "#8EE5A5",
+      "x": 400,
+      "y": 200
     },
     {
       "id": "economic_opportunity",
       "label": "Economic opportunity",
       "type": "Economic",
       "value": 0.7,
-      "color": "#73AF48"
+      "color": "#73AF48",
+      "x": 600,
+      "y": 200
     },
     {
       "id": "innovation_and_entrepreneurship",
       "label": "Innovation and entrepreneurship",
       "type": "Economic",
       "value": 0.6,
-      "color": "#9BC149"
-    }, 
+      "color": "#9BC149",
+      "x": 800,
+      "y": 200
+    },
     {
       "id": "global_reputation_for_culture",
       "label": "Global reputation for culture",
       "type": "Culture",
       "value": 0.8,
-      "color": "#FFE66D"
+      "color": "#FFE66D",
+      "x": 1000,
+      "y": 200
     },
     {
       "id": "traffic_congestion",
       "label": "Traffic congestion",
       "type": "Infrastructure",
       "value": 0.4,
-      "color": "#FFB94C"
+      "color": "#FFB94C",
+      "x": 0,
+      "y": 400
     },
     {
       "id": "immigration_rate",
       "label": "Immigration rate",
       "type": "Demographic",
       "value": 10000,
-      "color": "#FF9C6C"
+      "color": "#FF9C6C",
+      "x": 200,
+      "y": 400
     },
     {
       "id": "birth_rate",
       "label": "Birth rate",
       "type": "Demographic",
       "value": 1000,
-      "color": "#6BFF8F" 
+      "color": "#6BFF8F",
+      "x": 400,
+      "y": 400
     },
     {
       "id": "death_rate",
       "label": "Death rate",
-      "type": "Demographic",
+     "type": "Demographic",
       "value": 500,
-      "color": "#FFBA5A"
+      "color": "#FFBA5A",
+      "x": 600,
+      "y": 400
     },
     {
       "id": "migration_rate",
       "label": "Migration rate",
-      "type": "Demographic", 
+      "type": "Demographic",
       "value": 500,
-      "color": "#FF7D67"
+      "color": "#FF7D67",
+      "x": 800,
+      "y": 400
     },
     {
       "id": "investment_in_education",
       "label": "Investment in education",
       "type": "Investment",
-      "value": 1000000,  
-      "color": "#00B7C3"
+      "value": 1000000,
+      "color": "#00B7C3",
+      "x": 1000,
+      "y": 400
     },
     {
-      "id": "investment_in_healthcare", 
+      "id": "investment_in_healthcare",
       "label": "Investment in healthcare",
       "type": "Investment",
       "value": 500000,
-      "color": "#A8DBA8"
+      "color": "#A8DBA8",
+      "x": 0,
+      "y": 600
     },
-    {
-      "id": "investment_in_infrastructure",
-      "label": "Investment in infrastructure",
-      "type": "Investment", 
-      "value": 1000000,
-      "color": "#73C6B6"
-    },
-    {
-      "id": "investment_in_innovation_and_entrepreneurship",
-      "label": "Investment in innovation and entrepreneurship",
-      "type": "Investment",
-      "value": 500000,
-      "color": "#73AF48"
-    },
-    {
-      "id": "investment_in_cultural_development",
-      "label": "Investment in cultural development",
-      "type": "Investment",
-      "value": 500000,
-      "color": "#FFE66D"
-    },
-    {
-      "id": "job_creation_rate",
-      "label": "Job creation rate",
-      "type": "Economic",
-      "value": 0.02,
-      "color": "#9BC149"      
-    },
-    {
-      "id": "venture_capital_funding_growth_rate",
-      "label": "Venture capital funding growth rate",
-      "type": "Economic",
-      "value": 0.1,
-      "color": "#73C6B6"
-    },
-    {
-      "id": "gdp_growth_rate",
-      "label": "GDP growth rate",
-      "type": "Economic",
-      "value": 0.02,
-      "color": "#FECB2F"
-    },    
-    {
-      "id": "unemployment_rate_reduction",
-      "label": "Unemployment rate reduction",  
-      "type": "Economic",
-      "value": 0.01,
-      "color": "#D55F5F"
-    },
-    {
-      "id": "housing_affordability_improvement_rate",
-      "label": "Housing affordability improvement rate",
-      "type": "Housing",
-      "value": 0.05,
-      "color": "#BAE6FD" 
-    },
-    {
-      "id": "quality_of_life_improvement_rate", 
-      "label": "Quality of life improvement rate",
-      "type": "Quality of Life",
-      "value": 0.05,
-      "color": "#65CCF1"
-    },
-    {
-      "id": "climate_change_impact",
-      "label": "Climate change impact",
-      "type": "Environment",
-      "value": 0.7,  
-      "color": "#FF9C6C"
-    },
-    {
-      "id": "transportation_infrastructure_quality",
-      "label": "Transportation infrastructure quality",
-      "type": "Infrastructure",
-      "value": 0.6,
-      "color": "#FFB94C"
-    },
-    {
+{
       "id": "public_safety",
       "label": "Public safety",
       "type": "Quality of Life",
       "value": 0.7,
-      "color": "#FF7D67"
+      "color": "#FF7D67",
+      "x": 0,
+      "y": 800
     },
     {
       "id": "community_engagement",
       "label": "Community engagement",
-      "type": "Social", 
+      "type": "Social",
       "value": 0.6,
-      "color": "#88D8B0"
+      "color": "#88D8B0",
+      "x": 200,
+      "y": 800
     },
     {
       "id": "diversity_and_inclusion",
-      "label": "Diversity and inclusion",  
+      "label": "Diversity and inclusion",
       "type": "Social",
       "value": 0.8,
-      "color": "#A8DBA8"
+      "color": "#A8DBA8",
+      "x": 400,
+      "y": 800
     },
     {
       "id": "technology_infrastructure",
       "label": "Technology infrastructure",
       "type": "Infrastructure",
       "value": 0.7,
-      "color": "#73AF48"    
+      "color": "#73AF48",
+      "x": 600,
+      "y": 800
     },
     {
       "id": "renewable_energy_adoption",
       "label": "Renewable energy adoption",
       "type": "Environment",
       "value": 0.4,
-      "color": "#8EE5A5" 
+      "color": "#8EE5A5",
+      "x": 800,
+      "y": 800
     },
     {
       "id": "sustainability_initiatives",
       "label": "Sustainability initiatives",
       "type": "Environment",
       "value": 0.6,
-      "color": "#9BC149"
+      "color": "#9BC149",
+      "x": 1000,
+      "y": 800
     },
     {
       "id": "workforce_development",
       "label": "Workforce development",
       "type": "Education",
-      "value": 0.6,   
-      "color": "#6FC3DF"
+      "value": 0.6,
+      "color": "#6FC3DF",
+      "x": 0,
+      "y": 1000
     },
     {
       "id": "tourism_industry_growth",
       "label": "Tourism industry growth",
       "type": "Economic",
       "value": 0.08,
-      "color": "#FFE66D"
+      "color": "#FFE66D",
+      "x": 200,
+      "y": 1000
     },
     {
       "id": "foreign_direct_investment",
       "label": "Foreign direct investment",
       "type": "Economic",
       "value": 500000000,
-      "color": "#FECB2F"
+      "color": "#FECB2F",
+      "x": 400,
+      "y": 1000
     }
   ],
   "connections": [
     {
       "id": "c1",
       "from": "population",
-      "to": "housing_affordability",  
+      "to": "housing_affordability",
       "type": "Increased demand for housing",
       "direction": "directed",
       "color": "#0073EA"
@@ -288,32 +267,48 @@
       "from": "housing_affordability",
       "to": "quality_of_life",
       "type": "Affordability impact",
-      "direction": "directed",    
+      "direction": "directed",
       "color": "#E45028"
     },
     {
-      "id": "c3", 
+      "id": "c3",
       "from": "quality_of_life",
       "to": "economic_opportunity",
       "type": "Reduced economic opportunity",
       "direction": "directed",
-      "color": "#F9B229" 
+      "color": "#F9B229"
     },
     {
       "id": "c4",
       "from": "economic_opportunity",
-      "to": "innovation_and_entrepreneurship", 
-      "type": "Decreased innovation",
+      "to": "job_creation_rate",
+      "type": "stimulates",
       "direction": "directed",
-      "color": "#9BC149"
+      "color": "#FF6347"
     },
     {
       "id": "c5",
-      "from": "innovation_and_entrepreneurship",
-      "to": "venture_capital_funding",
-      "type": "Reduced VC funding",
-      "direction": "directed",  
-      "color": "#73C6B6"
-    }
+      "from": "venture_capital_funding",
+      "to": "innovation_and_entrepreneurship",
+      "type": "funds",
+      "direction": "directed",
+      "color": "#32CD32"
+    },
+    {
+      "id": "c6",
+      "from": "education_level",
+      "to": "workforce_development",
+      "type": "enhances",
+      "direction": "directed",
+      "color": "#DA70D6"
+    },
+    {
+      "id": "c7",
+      "from": "healthcare_access",
+      "to": "public_safety",
+      "type": "supports",
+      "direction": "directed",
+      "color": "#40E0D0"
+    },
   ]
 }
