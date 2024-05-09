@@ -71,8 +71,8 @@
       "value": 0.8,
       "x": 200,
       "y": 200
-    }
-{
+    },
+    {
       "id": "natural_environment_quality",
       "label": "Natural environment quality",
       "type": "Environment",
@@ -124,7 +124,7 @@
       "tag": "Global Connectivity",
       "value": 10000,
       "x": 200,
-      "y": 400
+      "y":400
     },
     {
       "id": "birth_rate",
@@ -217,45 +217,44 @@
       "y": 800
     },
     {
-    "id": "sustainability_initiatives",
-    "label": "Sustainability initiatives",
-    "type": "Environment",
-    "tag": "Natural Environment",
-    "value": 0.6,
-    "x": 1000,
-    "y": 800
+      "id": "sustainability_initiatives",
+      "label": "Sustainability initiatives",
+      "type": "Environment",
+      "tag": "Natural Environment",
+      "value": 0.6,
+      "x": 1000,
+      "y": 800
     },
     {
-    "id": "workforce_development",
-    "label": "Workforce development",
-    "type": "Education",
-    "tag": "Education and Workforce",
-    "value": 0.6,
-    "x": 0,
-    "y": 1000
+      "id": "workforce_development",
+      "label": "Workforce development",
+      "type": "Education",
+      "tag": "Education and Workforce",
+      "value": 0.6,
+      "x": 0,
+      "y": 1000
     },
     {
-    "id": "tourism_industry_growth",
-    "label": "Tourism industry growth",
-    "type": "Economic",
-    "tag": "Global Connectivity",
-    "value": 0.08,
-    "x": 200,
-    "y": 1000
+      "id": "tourism_industry_growth",
+      "label": "Tourism industry growth",
+      "type": "Economic",
+      "tag": "Global Connectivity",
+      "value": 0.08,
+      "x": 200,
+      "y": 1000
     },
     {
-    "id": "foreign_direct_investment",
-    "label": "Foreign direct investment",
-    "type": "Economic",
-    "tag": "Global Connectivity",
-    "value": 500000000,
-    "x": 400,
-    "y": 1000
+      "id": "foreign_direct_investment",
+      "label": "Foreign direct investment",
+      "type": "Economic",
+      "tag": "Global Connectivity",
+      "value": 500000000,
+      "x": 400,
+      "y": 1000
     }
-                ]
-{
+  ],
   "connections": [
-    {
+  {
       "id": "c1",
       "from": "population",
       "to": "housing_affordability",
@@ -372,20 +371,23 @@
       "label": "Improved public safety boosts quality of life",
       "tag": "Modernized Government Services"
     },
-  {
+    {
       "id": "c14",
       "from": "investment_in_infrastructure",
       "to": "natural_environment_quality",
       "type": "Enhances environmental quality",
-      "direction": "directed",
-      "label": "Infrastructure investment enhances environmental quality"
+      "direction":"directed",
+      "label": "Infrastructure investment enhances environmental quality",
+      "tag": "Modernized Government Services"
     },
+    {
       "id": "c15",
       "from": "natural_environment_quality",
       "to": "quality_of_life",
       "type": "Improves quality of life",
       "direction": "directed",
-      "label": "Better natural environment improves life quality"
+      "label": "Better natural environment improves life quality",
+      "tag": "Natural Environment"
     },
     {
       "id": "c16",
@@ -393,7 +395,8 @@
       "to": "innovation_and_entrepreneurship",
       "type": "Fuels innovation",
       "direction": "directed",
-      "label": "VC funding drives innovation and entrepreneurship"
+      "label": "VC funding drives innovation and entrepreneurship",
+      "tag": "A Dynamic and Diversified Economy"
     },
     {
       "id": "c17",
@@ -401,7 +404,8 @@
       "to": "tourism_industry_growth",
       "type": "Boosts tourism",
       "direction": "directed",
-      "label": "Cultural reputation boosts tourism and economic growth"
+      "label": "Cultural reputation boosts tourism and economic growth",
+      "tag": "Global Connectivity"
     },
     {
       "id": "c18",
@@ -409,7 +413,8 @@
       "to": "economic_growth",
       "type": "Enhances economic growth",
       "direction": "directed",
-      "label": "Tourism growth fuels overall economic growth"
+      "label": "Tourism growth fuels overall economic growth",
+      "tag": "Global Connectivity"
     },
     {
       "id": "c19",
@@ -417,6 +422,9 @@
       "to": "quality_of_life",
       "type": "Decreases quality of life",
       "direction": "directed",
-      "label": "Reduced traffic congestion improves quality of life"
+      "label": "Reduced traffic congestion improves quality of life",
+      "tag": "Modernized Government Services"
     }
   ]
+}
+
