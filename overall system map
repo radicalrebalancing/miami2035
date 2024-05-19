@@ -1,0 +1,254 @@
+{
+  "elements": [
+    {
+      "label": "Climate Change",
+      "type": "Crisis"
+    },
+    {
+      "label": "Political Instability",
+      "type": "Crisis"
+    },
+    {
+      "label": "Health Issues",
+      "type": "Crisis"
+    },
+    {
+      "label": "Forever Chemicals",
+      "type": "Crisis"
+    },
+    {
+      "label": "Biodiversity Loss",
+      "type": "Crisis"
+    },
+    {
+      "label": "Globalization",
+      "type": "Driver"
+    },
+    {
+      "label": "Economic Inequality",
+      "type": "Crisis"
+    },
+    {
+      "label": "Poor Education",
+      "type": "Crisis"
+    },
+    {
+      "label": "Loss of Attention",
+      "type": "Crisis"
+    }
+  ],
+  "connections": [
+    {
+      "from": "Climate Change",
+      "to": "Extreme Weather Events",
+      "type": "Causes"
+    },
+    {
+      "from": "Climate Change",
+      "to": "Biodiversity Loss",
+      "type": "Causes"
+    },
+    {
+      "from": "Climate Change",
+      "to": "Food Insecurity",
+      "type": "Causes"
+    },
+    {
+      "from": "Climate Change",
+      "to": "Health Issues",
+      "type": "Causes"
+    },
+    {
+      "from": "Economic Inequality",
+      "to": "Political Instability",
+      "type": "Causes"
+    },
+    {
+      "from": "Poor Education",
+      "to": "Political Instability",
+      "type": "Causes"
+    },
+    {
+      "from": "Political Instability",
+      "to": "Policy Paralysis",
+      "type": "Causes"
+    },
+    {
+      "from": "Political Instability",
+      "to": "Conflict",
+      "type": "Causes"
+    },
+    {
+      "from": "Pollution",
+      "to": "Health Issues",
+      "type": "Causes"
+    },
+    {
+      "from": "Social Isolation",
+      "to": "Mental Health Issues",
+      "type": "Causes"
+    },
+    {
+      "from": "Stress from Other Crises",
+      "to": "Health Issues",
+      "type": "Causes"
+    },
+    {
+      "from": "Health Issues",
+      "to": "Increased Healthcare Costs",
+      "type": "Causes"
+    },
+    {
+      "from": "Industrial Processes",
+      "to": "Forever Chemicals",
+      "type": "Causes"
+    },
+    {
+      "from": "Forever Chemicals",
+      "to": "Health Issues",
+      "type": "Causes"
+    },
+    {
+      "from": "Forever Chemicals",
+      "to": "Environmental Contamination",
+      "type": "Causes"
+    },
+    {
+      "from": "Forever Chemicals",
+      "to": "Biodiversity Loss",
+      "type": "Causes"
+    },
+    {
+      "from": "Habitat Destruction",
+      "to": "Biodiversity Loss",
+      "type": "Causes"
+    },
+    {
+      "from": "Pollution",
+      "to": "Biodiversity Loss",
+      "type": "Causes"
+    },
+    {
+      "from": "Biodiversity Loss",
+      "to": "Ecosystem Collapse",
+      "type": "Causes"
+    },
+    {
+      "from": "Biodiversity Loss",
+      "to": "Reduced Agricultural Productivity",
+      "type": "Causes"
+    },
+    {
+      "from": "Trade Policies",
+      "to": "Globalization",
+      "type": "Causes"
+    },
+    {
+      "from": "Technological Advancements",
+      "to": "Globalization",
+      "type": "Causes"
+    },
+    {
+      "from": "Globalization",
+      "to": "Economic Interdependence",
+      "type": "Causes"
+    },
+    {
+      "from": "Globalization",
+      "to": "Spread of Diseases",
+      "type": "Causes"
+    },
+    {
+      "from": "Globalization",
+      "to": "Economic Inequality",
+      "type": "Causes"
+    },
+    {
+      "from": "Tax Policies",
+      "to": "Economic Inequality",
+      "type": "Causes"
+    },
+    {
+      "from": "Automation",
+      "to": "Economic Inequality",
+      "type": "Causes"
+    },
+    {
+      "from": "Economic Inequality",
+      "to": "Social Unrest",
+      "type": "Causes"
+    },
+    {
+      "from": "Underfunding",
+      "to": "Poor Education",
+      "type": "Causes"
+    },
+    {
+      "from": "Inequality",
+      "to": "Poor Education",
+      "type": "Causes"
+    },
+    {
+      "from": "Poor Education",
+      "to": "Reduced Economic Opportunities",
+      "type": "Causes"
+    },
+    {
+      "from": "Poor Education",
+      "to": "Poor Civic Engagement",
+      "type": "Causes"
+    },
+    {
+      "from": "Algorithmic Design",
+      "to": "Loss of Attention",
+      "type": "Causes"
+    },
+    {
+      "from": "Pervasive Technology",
+      "to": "Loss of Attention",
+      "type": "Causes"
+    },
+    {
+      "from": "Loss of Attention",
+      "to": "Reduced Productivity",
+      "type": "Causes"
+    },
+    {
+      "from": "Loss of Attention",
+      "to": "Mental Health Issues",
+      "type": "Causes"
+    }
+  ],
+  "loops": [
+    {
+      "type": "Reinforcing",
+      "connections": [
+        "Climate Change->Biodiversity Loss",
+        "Biodiversity Loss->Ecosystem Collapse",
+        "Ecosystem Collapse->Climate Change"
+      ]
+    },
+    {
+      "type": "Reinforcing", 
+      "connections": [
+        "Climate Change->Health Issues",
+        "Health Issues->Increased Healthcare Costs",
+        "Increased Healthcare Costs->Political Instability",
+        "Political Instability->Policy Paralysis",
+        "Policy Paralysis->Climate Change"
+      ]
+    },
+    {
+      "type": "Balancing",
+      "connections": [
+        "Economic Inequality->Social Unrest",
+        "Social Unrest->Political Instability", 
+        "Political Instability->Policy Paralysis",
+        "Policy Paralysis->Climate Change",
+        "Climate Change->Biodiversity Loss",
+        "Biodiversity Loss->Reduced Agricultural Productivity",
+        "Reduced Agricultural Productivity->Economic Inequality"
+      ]
+    }
+  ]
+}
